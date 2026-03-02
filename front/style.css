@@ -1,0 +1,24 @@
+.card {
+  padding: 20px;
+  background: #222;
+  color: white;
+}
+.card__title {
+  font-size: 20px;
+}
+.card__desc {
+  margin: 10px 0;
+}
+.card img {
+  width: 100%;
+}
+
+.btn {
+  padding: 10px;
+  background: #3498db;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */

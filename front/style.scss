@@ -1,0 +1,33 @@
+$primary: #3498db;
+$text-color: white;
+
+// миксин
+@mixin button($color) {
+  padding: 10px;
+  background: $color;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.card {
+  padding: 20px;
+  background: #222;
+  color: $text-color;
+
+  &__title {
+    font-size: 20px;
+  }
+
+  &__desc {
+    margin: 10px 0;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+.btn {
+  @include button($primary);
+}
